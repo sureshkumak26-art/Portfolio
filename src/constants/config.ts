@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Daksh Kumar — 3D Portfolio",
+    fullName: "Daksh Kumar",
+    email: "hello@example.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Daksh Kumar",
+    p: ["I build modern websites, Telegram apps,", "and interactive digital experiences."],
   },
   contact: {
     p: "Get in touch",
@@ -66,16 +66,15 @@ export const config: TConfig = {
   sections: {
     about: {
       p: "Introduction",
-      h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      h2: "About Me.",
+      content: `I'm Daksh Kumar, a developer who enjoys building modern websites,
+      Telegram bots and mini apps, and interactive digital experiences. I work
+      with web technologies to turn ideas into useful, responsive products.
+      Explore my projects and feel free to get in touch!`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "What I have worked on",
+      h2: "My Journey.",
     },
     feedbacks: {
       p: "What others say",
@@ -84,11 +83,9 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `A selection of projects that showcase my work in web development,
+      Telegram applications, and digital products. Explore the details and
+      discover what I've been building.`,
     },
   },
 };
